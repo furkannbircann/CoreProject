@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Concrete\" />
+    <Folder Include="Concrete\ConcreteRepositories\" />
   </ItemGroup>
 
   <ItemGroup>
