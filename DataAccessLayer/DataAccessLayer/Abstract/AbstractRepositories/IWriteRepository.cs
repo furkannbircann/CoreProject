@@ -11,8 +11,8 @@ namespace DataAccessLayer.Abstract.AbstractRepositories
     {
         Task<bool> AddAsync(T entity);
         Task<bool> AddRangeAsync(IEnumerable<T> entities);
-        bool Update();
-        bool Delete();
+        bool Update(T entitiy);
+        bool Delete(T entity);
         bool DeleteRange(IEnumerable<T> entities);
         Task<int> SaveAsync();
     }
